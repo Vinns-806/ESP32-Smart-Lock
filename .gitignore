@@ -1,55 +1,24 @@
-# Prerequisites
+# ESP-IDF
+build/
+sdkconfig.old
+managed_components/
+*.bin
+*.elf
+*.map
+*.o
+*.a
 *.d
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# IDE / 本机配置
+.vscode/
+.devcontainer/
+.idea/
+*.swp
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# 备份文件
+*.bak
+*.bak*
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
-
-# debug information files
-*.dwo
+# 系统
+.DS_Store
+Thumbs.db
